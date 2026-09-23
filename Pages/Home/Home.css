@@ -49,5 +49,81 @@ body {
 
             }
         }
+
+        .main-section-navbar {
+            background-color: #f3f3f3;
+            display: flex;
+            justify-content: center;
+            height: 5.5rem;
+
+
+            .main-section-nav {
+                display: flex;
+                align-items: center;
+                margin-left: 15rem;
+
+                a {
+                    font-weight: 700;
+                    font-size: 1.1rem;
+                    padding-right: 2rem;
+                    text-decoration: none;
+                    color: #151515;
+                }
+
+                a:hover {
+                    padding: .8rem 1.4rem;
+                    border-radius: .4rem;
+                    border: solid 1px #276ab3;
+                    color: #276ab3;
+                    margin-right: .6rem;
+                    transition: 0.20s ease-in-out;
+
+                }
+
+                a:active {
+                    padding: .8rem 1.4rem;
+                    border-radius: .4rem;
+                    border: solid 1px #1b6fc9;
+                    color: #276ab3;
+                    margin-right: 1rem;
+                }
+            }
+
+            .bookingbtn {
+                display: flex;
+                align-items: center;
+                margin-left: 6rem;
+
+                a {
+                    background-color: #276ab3;
+                    border-radius: .6rem;
+                    padding: .6rem 3rem;
+                    color: #f3f3f3;
+                    text-decoration: none;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+
+                    span {
+                        color: #000;
+                        background-color: #f3f3f3;
+                        border-radius: .2rem;
+                        width: 2rem;
+                        height: 2rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                }
+
+                a:hover {
+                    background-color: #151515;
+                    transition: .8s ease;
+                }
+
+            }
+        }
     }
 }
